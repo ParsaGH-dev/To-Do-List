@@ -11,7 +11,7 @@ TASK_FILE = "tasks.txt"
 
 # --- Main App Window ---
 root = tk.Tk()
-root.title("My Professional To-Do List")
+root.title("Professional To-Do List")
 root.geometry("500x550")
 root.config(bg=LIGHT_BG)
 
@@ -73,7 +73,7 @@ def load_tasks():
         messagebox.showwarning("File Missing", "No saved tasks found.")
 
 # --- UI Elements ---
-lbl_title = tk.Label(root, text="✨ My Professional To-Do List ✨", 
+lbl_title = tk.Label(root, text="Professional To-Do List", 
                      font=("Segoe UI Semibold", 16), bg=LIGHT_BG, fg=LIGHT_FG)
 lbl_title.pack(pady=15)
 
